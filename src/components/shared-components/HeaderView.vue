@@ -13,7 +13,7 @@
                         </ul>
                         <i class="fa fa-caret-down" aria-hidden="true"></i>
                     </li>
-                    <li class="menu-li"><a href="./solution.html">솔루션</a>
+                    <li class="menu-li"><router-link to="/solution">솔루션</router-link>
                         <ul class="submenu">
                             <li><a href="./solution.html">솔루션</a></li>
                         </ul>
