@@ -4,9 +4,9 @@
             <nav>
                 <div class="logo"><a href="./index.html"><img src="@/assets/images/kephas.png" alt=""></a></div>
                 <ul class="menu">
-                    <li class="menu-li"><a href="./introduce.html">회사소개</a>
+                    <li class="menu-li"><router-link to="/introduce">회사소개</router-link>
                         <ul class="submenu">
-                            <li><a href="./introduce.html">회사 소개</a></li>
+                            <li><router-link to="/introduce">회사 소개</router-link></li>
                             <li><a href="./partner.html">파트너십</a></li>
                             <li><a href="./business.html">사업 소개</a></li>
                             <li><a href="./findus.html">연락 및 위치</a></li>
