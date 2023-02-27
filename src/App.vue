@@ -8,6 +8,9 @@ import HelloWorld from './components/HelloWorld.vue'
     <header-view/>
   </div>
   <router-view/>
+  <div id="footer">
+    <footer-view/>
+  </div>
 </template>
 
 <style scoped>
@@ -78,10 +81,12 @@ nav a:first-of-type {
 </style>
 <script>
 import HeaderView from './components/shared-components/HeaderView.vue'
+import FooterView from './components/shared-components/FooterView.vue'
 export default {
   name: 'App',
   components: {
-    'header-view': HeaderView
+    'header-view': HeaderView,
+    'footer-view': FooterView
   }
 }
 </script>
